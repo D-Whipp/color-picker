@@ -70,6 +70,8 @@
 .colorPicker .twod .bg {
   width: 240px;
   height: 240px;
+  /* width: 400px;
+  height: 400px; */
 }
 .colorPicker .oned,
 .colorPicker .oned .bg {

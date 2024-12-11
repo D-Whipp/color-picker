@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #000;
+}
+
+h1 {
+  color: #fff;
+}
+
+.container {
+  color: #fff;
+}

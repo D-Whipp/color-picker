@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="colorJoe/colorjoe.css" />
+    <script src="colorJoe/colorjoe.min.js"></script>
+  </head>
+  <body>
+    <h1>Color Picker</h1>
+    <div class="container">
+        <div class="colorjoe"></div>
+        <div class="config">
+            <div class="config-title">Selected Color</div>
+            <div class="selected-color-text"></div>
+            <div class="selected-color"></div>
+            <div class="config-title">Saved Colors</div>
+            <div class="saved-color"></div>
+            <div class="saved-color"></div>
+            <div class="saved-color"></div>
+            <div class="saved-color"></div>
+            <div class="saved-color"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <!-- THE BELOW CODE HAS BEEN MIGRATED TO INDEX.JS -->
+     <!-- <script>
+      class ColorPicker {
+        constructor(root) {
+          this.root = root;
+          this.colorjoe = colorjoe.rgb(this.root.querySelector(".colorjoe"));
+          this.colorjoe.show();
+        }
+      }
+
+      const cp = new ColorPicker(document.querySelector(".container"));
+     </script> -->
+     <!-- <script>
+      const cj = colorjoe.rgb(document.querySelector(".colorjoe"));
+      cj.show();
+     </script> -->
+  </body>
+</html>
